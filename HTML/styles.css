@@ -1,0 +1,127 @@
+body{
+    background-color: rgba(255, 255, 255, 0.926);
+}
+
+.cartatitulo{
+border: 85vw;
+
+}
+
+.fotoscafe{
+
+   
+    background-position: center; 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+    
+}
+
+.cardscontainer{
+background-color: black;
+
+
+}
+
+
+
+.cards{
+
+    border: 2px;
+    border-radius: 10%;
+    box-sizing: border-box;
+    border-color: black;
+    padding: 2px;
+    background-color: rgb(73, 73, 75);
+    transition: all;
+    transition-duration: 1,5s;
+    margin-block: 40px;
+    margin-left: 40%;
+    margin-right: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+justify-content: space-around;
+  
+}
+   
+
+
+
+
+
+
+h{
+    background-color: black;
+}
+
+h2{
+
+font-size: 30px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+
+.titulo2{
+
+    font-size: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+       
+}
+
+}
+
+h3{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.image.container {
+    position: relative; /* Contenedor principal para permitir la superposición */
+    width: 100%;
+    max-width: 800px; /* Ajusta el tamaño del contenedor */
+    margin: 0 auto; /* Centra el contenedor en la página */
+}
+
+
+
+.titulo1{
+    position: absolute; /* Posiciona el título encima de la imagen */
+            top: 13%; /* Centra verticalmente el título */
+            left: 50%; /* Centra horizontalmente el título */
+            transform: translate(-50%, -50%); /* Ajusta la posición para estar perfectamente centrado */
+            color: white; /* Color del texto */
+            font-size: 64px; /* Tamaño del texto */
+            font-weight: bold;
+            text-shadow: 2px 2px 8px rgba(69, 69, 69, 0.7); /* Sombra para mejorar la legibilidad del texto */
+            text-align: center;
+    
+
+}
+.imagen1 {
+            object-position: top;
+            position: relative;
+            width: 100%;
+            height: 250px; 
+            background-image: image(url(../../textura-cafe-caracas-quiere-cafe-980x306.jpg));
+            background-size: cover; 
+            background-position: center; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgb(116, 114, 114);
+            opacity: 0,70;
+            margin: 0%;
+}
+
